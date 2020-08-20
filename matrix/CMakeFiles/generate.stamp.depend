@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Git/repos/MathLibrary/matrix/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/GenerateExportHeader.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/exportheader.cmake.in

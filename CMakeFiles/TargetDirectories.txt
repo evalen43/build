@@ -1,0 +1,12 @@
+C:/Git/repos/MathLibrary/build/CMakeFiles/INSTALL.dir
+C:/Git/repos/MathLibrary/build/CMakeFiles/ALL_BUILD.dir
+C:/Git/repos/MathLibrary/build/CMakeFiles/ZERO_CHECK.dir
+C:/Git/repos/MathLibrary/build/matrix/CMakeFiles/MatrixLib.dir
+C:/Git/repos/MathLibrary/build/matrix/CMakeFiles/INSTALL.dir
+C:/Git/repos/MathLibrary/build/matrix/include/CMakeFiles/INSTALL.dir
+C:/Git/repos/MathLibrary/build/matrix/include/Matrix/CMakeFiles/INSTALL.dir
+C:/Git/repos/MathLibrary/build/matrix/src/CMakeFiles/INSTALL.dir
+C:/Git/repos/MathLibrary/build/matrix/src/Matrix/CMakeFiles/INSTALL.dir
+C:/Git/repos/MathLibrary/build/apps/CMakeFiles/Test.dir
+C:/Git/repos/MathLibrary/build/apps/CMakeFiles/INSTALL.dir
+C:/Git/repos/MathLibrary/build/apps/data/CMakeFiles/INSTALL.dir

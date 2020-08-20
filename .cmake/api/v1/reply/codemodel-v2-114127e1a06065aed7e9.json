@@ -1,0 +1,732 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "matrix",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "matrix",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "matrix/include",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "matrix/include"
+				},
+				{
+					"build" : "matrix/include/Matrix",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "matrix/include/Matrix"
+				},
+				{
+					"build" : "matrix/src",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "matrix/src"
+				},
+				{
+					"build" : "matrix/src/Matrix",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "matrix/src/Matrix"
+				},
+				{
+					"build" : "apps",
+					"childIndexes" : 
+					[
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "apps",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "apps/data",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "apps/data"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "MatrixLib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-624ef5b0bed2ed26e7b2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MatrixLib::@23c283fdd1b78e1a8728",
+					"jsonFile" : "target-MatrixLib-Debug-82651b0c77f7ca65c944.json",
+					"name" : "MatrixLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Test::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-Test-Debug-fed5f9a5723920a61d64.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-6ef31354c7e0f1ed9090.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "matrix",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "matrix",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "matrix/include",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "matrix/include"
+				},
+				{
+					"build" : "matrix/include/Matrix",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "matrix/include/Matrix"
+				},
+				{
+					"build" : "matrix/src",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "matrix/src"
+				},
+				{
+					"build" : "matrix/src/Matrix",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "matrix/src/Matrix"
+				},
+				{
+					"build" : "apps",
+					"childIndexes" : 
+					[
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "apps",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "apps/data",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "apps/data"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "MatrixLib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-624ef5b0bed2ed26e7b2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MatrixLib::@23c283fdd1b78e1a8728",
+					"jsonFile" : "target-MatrixLib-Release-4e4da55290b1cee65026.json",
+					"name" : "MatrixLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Test::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-Test-Release-ec8e45ff17a8b08c2fef.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-6ef31354c7e0f1ed9090.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "matrix",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "matrix",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "matrix/include",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "matrix/include"
+				},
+				{
+					"build" : "matrix/include/Matrix",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "matrix/include/Matrix"
+				},
+				{
+					"build" : "matrix/src",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "matrix/src"
+				},
+				{
+					"build" : "matrix/src/Matrix",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "matrix/src/Matrix"
+				},
+				{
+					"build" : "apps",
+					"childIndexes" : 
+					[
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "apps",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "apps/data",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "apps/data"
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "MatrixLib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-624ef5b0bed2ed26e7b2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MatrixLib::@23c283fdd1b78e1a8728",
+					"jsonFile" : "target-MatrixLib-MinSizeRel-24c30d7b4541c49a9e57.json",
+					"name" : "MatrixLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Test::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-Test-MinSizeRel-dc6e3a1740820ef38346.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-6ef31354c7e0f1ed9090.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "matrix",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "matrix",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "matrix/include",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "matrix/include"
+				},
+				{
+					"build" : "matrix/include/Matrix",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "matrix/include/Matrix"
+				},
+				{
+					"build" : "matrix/src",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "matrix/src"
+				},
+				{
+					"build" : "matrix/src/Matrix",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "matrix/src/Matrix"
+				},
+				{
+					"build" : "apps",
+					"childIndexes" : 
+					[
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "apps",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "apps/data",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "apps/data"
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "MatrixLib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-624ef5b0bed2ed26e7b2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MatrixLib::@23c283fdd1b78e1a8728",
+					"jsonFile" : "target-MatrixLib-RelWithDebInfo-64b2f087c9f6fb4789bb.json",
+					"name" : "MatrixLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Test::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-Test-RelWithDebInfo-798b31741c09b37c8974.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-6ef31354c7e0f1ed9090.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Git/repos/MathLibrary/build",
+		"source" : "C:/Git/repos/MathLibrary"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
